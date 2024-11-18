@@ -1,0 +1,18 @@
+title: resilient-advocacy
+email:
+description:
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  load_paths:
+    - _scss
+
+collections:
+  pages:
+    output: true
