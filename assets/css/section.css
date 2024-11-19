@@ -43,9 +43,30 @@
     background-color: rgb(196, 13, 13);
     height: 25rem; /* Set the height to viewport height */
   }
+  #section1 h1{
+    font-size: 4em;
+    color: white;
+  }
   #section2{
    height: 45rem;
   }
+
+  #section3 {
+    padding: 2rem; /* Adds padding on all sides */
+    padding-left: 3rem; /* Extra left padding for better alignment */
+    padding-right: 3rem; /* Extra right padding for better alignment */
+    text-align: left; /* Aligns text to the left (optional) */
+    background-color: #f9f9f9; /* Optional: Background for better readability */
+    color: #333; /* Text color for contrast */
+    line-height: 1.75; /* Increases line spacing for readability */
+    border-radius: 8px; /* Optional: Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+  }
+  #section3 p {
+    margin-bottom: 2rem;
+    
+  }
+  
 
   .text-overlay {
     top:15px;
@@ -83,4 +104,9 @@
       .text-overlay {
         font-size: 1em; 
       }
+      #section3 {
+        padding-left: 1rem; /* Extra left padding for better alignment */
+        padding-right: 1rem; /* Extra right padding for better alignment */
+      }
+    
   }
