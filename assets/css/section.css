@@ -52,9 +52,9 @@
   }
 
   #section3 {
-    padding: 2rem; /* Adds padding on all sides */
-    padding-left: 3rem; /* Extra left padding for better alignment */
-    padding-right: 3rem; /* Extra right padding for better alignment */
+    padding: 3rem; /* Adds padding on all sides */
+    padding-left: 12rem; /* Extra left padding for better alignment */
+    padding-right: 12rem; /* Extra right padding for better alignment */
     text-align: left; /* Aligns text to the left (optional) */
     background-color: #f9f9f9; /* Optional: Background for better readability */
     color: #333; /* Text color for contrast */
@@ -66,6 +66,10 @@
     margin-bottom: 2rem;
     
   }
+ #section3 ul, ol{
+  padding-left: 3rem;
+  margin-bottom: 4rem;
+ }
   
 
   .text-overlay {
