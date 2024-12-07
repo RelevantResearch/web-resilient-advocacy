@@ -1,7 +1,7 @@
 ---
 layout: page_layout
 title: Our Approach
-permalink: /our-approach
+permalink: /ourapproach
 ---
 
 ## The Theory

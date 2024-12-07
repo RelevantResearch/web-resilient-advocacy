@@ -1,7 +1,7 @@
 ---
 layout: page_layout
 title: Our Story
-permalink: /our-story
+permalink: /ourstory
 ---
 
 In 2020, the world shifted drastically as we experienced a global pandemic that revealed and exacerbated social inequities. Legal services advocates demanded support in their work as the trauma we were exposed to overwhelmed us in unexpected ways. This highlighted and revealed numerous tensions within legal services workspaces, resulting in mass unionization of legal services organizations around the country. Organizational leaders and advocates continue to navigate the complexities of diversity, equity, and inclusion initiatives while clamoring for trauma-informed and racially just workspaces.
