@@ -4,8 +4,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(196, 13, 13);
-  color: rgb(252, 251, 251);
+  background-color: rgb(196, 13, 13); /* Default red background */
+  color: rgb(252, 251, 251); /* White text */
   padding: 1rem 0;
   z-index: 1000;
   transition: background-color 0.3s ease, color 0.3s ease;
@@ -35,17 +35,33 @@
   color: inherit;
   text-decoration: none;
   padding: 0.5rem;
-  transition: color 0.3s ease;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 3px solid transparent; /* Default no visible border */
 }
 
 .nav-links a:hover {
-  color: #ff6347; /* Highlight color */
+  color: #ff6347; /* Highlight color on hover */
+  border-bottom: 3px solid #ff6347; /* Highlight underline */
 }
 
-/* Color change when scrolled */
+/* Default Active Link (Red Background) */
+.nav-links a.active,
+.fullscreen-menu a.active {
+  color: #fff; /* White text for red background */
+  border-bottom: 3px solid #fff; /* White underline */
+}
+
+/* Active Link with White Background */
+.navbar.scrolled .nav-links a.active,
+.navbar.scrolled .fullscreen-menu a.active {
+  color: #ff6347; /* Highlight color for white background */
+  border-bottom: 3px solid #ff6347; /* Highlight underline */
+}
+
+/* Navbar changes when scrolled */
 .navbar.scrolled {
-  background-color: #fff;
-  color: #1d1c1c;
+  background-color: #fff; /* White background */
+  color: #1d1c1c; /* Dark text */
 }
 
 /* Hamburger Menu */
@@ -88,8 +104,16 @@
   font-size: 2rem;
   text-decoration: none;
   margin: 1rem 0;
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+  border-bottom: 3px solid transparent; /* Default no visible border */
 }
 
+.fullscreen-menu a:hover {
+  color: #ff6347; /* Highlight color on hover */
+  border-bottom: 3px solid #ff6347; /* Highlight underline */
+}
+
+/* Close Button for Fullscreen Menu */
 .close-btn {
   position: absolute;
   top: 1rem;
